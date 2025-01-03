@@ -8,6 +8,14 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 
   <title>Niklas Gögge//Blog</title>
+
+  <style>
+    .custom-link {
+      font-size: 1.25rem;
+      text-decoration: underline;
+    }
+  </style>
+
 </head>
 
 <body>
@@ -16,12 +24,21 @@
       <div class="container">
         <div class="content">
           <p class="title">
-            Blog
+            Blog Posts & Other Publications
           </p>
 
-          <p class="subtitle">
-            soon &trade;
-          </p>
+          <div class="all-posts">
+              <p class="title is-5">2024</p>
+              <a href="https://delvingbitcoin.org/t/cve-2024-38365-public-disclosure-btcd-findanddelete-bug/1184" target="_blank" class="external custom-link">CVE-2024-38365: Btcd consensus bug due to incorrect implementation of FindAndDelete [external]</a><br/>
+              <a href="https://bitcoincore.org/en/2024/10/08/disclose-blocktxn-crash/" target="_blank" class="external custom-link">CVE-2024-35202: Remotely reachable assertion crash in Bitcoin Core's blocktxn handling [external]</a><br/>
+              <a href="https://delvingbitcoin.org/t/disclosure-btcd-consensus-bugs-due-to-usage-of-signed-transaction-version/455" target="_blank" class="external custom-link">CVE-2024-34478: Btcd consensus bugs due to usage of signed transaction version [external]</a><br/><br/>
+              <h5 class="title is-5">2023</h5>
+              <a href="https://delvingbitcoin.org/t/denial-of-service-bugs-in-lnds-channel-update-gossip-handling/314" target="_blank" class="external custom-link">Denial-of-service bugs in LND’s channel update gossip handling [external]</a><br/><br/>
+              <h5 class="title is-5">2022</h5>
+              <a href="https://arxiv.org/pdf/2205.12737" target="_blank" class="external custom-link">On the Routing Convergence Delay in the Lightning Network [external]</a><br/><br/>
+              <h5 class="title is-5">2021</h5>
+              <a href="https://blog.mozilla.org/security/2021/07/12/firefox-90-supports-fetch-metadata-request-headers/" target="_blank" class="external custom-link">Firefox 90 supports Fetch Metadata request headers [external]</a>
+            </div>
         </div>
       </div>
     </div>
